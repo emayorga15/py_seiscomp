@@ -1,0 +1,519 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+"""
+Maria Fernanda Nader e-mail: mnader@sgc.gov.co 
+"""
+from obspy import UTCDateTime
+from obspy.clients.fdsn import Client
+import numpy as np
+import sys
+
+
+def get_catalogue(client):
+    #Default INPUT
+    #starttime = UTCDateTime()
+    starttime = UTCDateTime("2017 02 25 235959")    
+    #endtime = starttime + 1*24*3600
+    endtime = UTCDateTime("2017 02 26 235959")
+    minlatitude=None
+    maxlatitude=None
+    minlongitude=None
+    maxlongitude=None
+    latitude=None
+    longitude=None
+    minradius=None
+    maxradius=None
+    mindepth=None
+    maxdepth=None
+    minmagnitude= None
+    maxmagnitude=None
+    magnitudetype=None
+    includeallmagnitudes=None
+    includearrivals=None
+    includeallorigins=None
+    limit=1
+    offset=None
+    updatedafter=None
+    waveform=None
+    timeafter= 1200
+    attache_response=False
+    units=None
+
+    #Costume input
+    print 'Optional Parameters for catalogue requests \n'
+    print '0. Default values'    
+    print '1. Start time (yyyy,mm,dd,hh,mm,ss).'
+    print '2. End time (yyyy,mm,dd,hh,mm,ss).'
+    print '3. Minlatitude: Limit to events with a latitude larger than the specified minimum.'
+    print '4. Maxlatitude: Limit to events with a latitude smaller than the specified maximum.'
+    print '5. Minlongitude: Limit to events with a longitude larger than the specified minimum.'
+    print '6. Maxlongitude: Limit to events with a longitude smaller than the specified maximum.'
+    print '7. Latitude: Specify the latitude to be used for a radius search.'
+    print '8. Longitude: Specify the longitude to the used for a radius search.'
+    print '9. Minradius: Limit to events within the specified minimum number of degrees from the geographic point defined by the latitude and longitude parameters.'
+    print '10. Maxradius: Limit to events within the specified maximum number of degrees from the geographic point defined by the latitude and longitude parameters.'
+    print '11. Mindepth: Limit to events with depth, in kilometers, larger than the specified  minimum.'
+    print '12. Maxdepth: Limit to events with depth, in kilometers, smaller than the specified maximum.'
+    print '13. Minmagnitude: Limit to events with a magnitude larger than the specified minimum.'
+    print '14. Maxmagnitude: Limit to events with a magnitude smaller than the specified maximum.'
+    print '15. includeallorigins: (bool) Specify if all origins for the event should be included.'
+    print '16. includeallmagnitudes (bool) Specify if all magnitudes for the event should be included. (NOT SUPPORTED YET)'
+    print '17. Includearrivals: (bool) Specify if phase arrivals should be included.(NOT SUPORTED YET)'
+    print '18. Limit: Limit the results to the specified number of events.'
+    print '19. Offset: Return results starting at the event count specified, starting at 1.'
+    print '20. Updatedafter (UTCDateTime): Limit to events updated after the specified time.'
+    print '21. Get event waveforms (bool)'
+    print '22. Time in seconds after event origin time for waveform request.'
+    print '23. Remove the instrument response: Calculate corrected traces to acceleration, velocity or displacement' 
+    
+    while True:
+        var = raw_input("\n Type the number of your option: ")
+        if var.strip() == '0':
+            break
+        else:
+            if var == '1':
+                try:
+                    t = raw_input('enter date: yyyy mm dd hhmmss ')
+                    starttime = UTCDateTime(t)
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            if var == '2':
+                try:
+                    t = raw_input('enter date: yyyy mm dd hhmmss ')
+                    endtime = UTCDateTime(t)                    
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            if var == '3':
+                minlatitude= float(raw_input('enter float: '))
+            if var == '4':
+                maxlatitude= float(raw_input('enter float: '))
+            if var == '5':
+                minlongitude= float( raw_input('enter float: ')) 
+            if var == '6':
+                maxlongitude= float(raw_input('enter float: ')) 
+            if var == '7':
+                latitude= float(raw_input('enter float: '))
+            if var == '8':
+                longitude= float(raw_input('enter float: '))
+            if var == '9':
+                minradious= float( raw_input('enter float: '))
+            if var == '10':
+                maxradius= float(raw_input('enter float: ')) 
+            if var == '11':
+                mindepth= float(raw_input('enter float: ')) 
+            if var == '12':
+                maxdepth= float(raw_input('enter float: ')) 
+            if var == '13':
+                minmagnitude= float(raw_input('enter float: ')) 
+            if var == '14':
+                maxmagnitude= float(raw_input('enter float: ')) 
+            if var == '15':
+                includeallorigins= bool(raw_input('enter boolean: ')) 
+            if var == '16':
+                includeallmagnitudes= bool(raw_input('enter boolean: ')) 
+            if var == '17':
+                includearrivals= bool(raw_input('enter boolean: ')) 
+            if var == '18':
+                limit= int(raw_input('enter integer: '))	
+            if var == '19':
+                offset = int(raw_input('enter integer: '))
+            if var == '20':
+                t = raw_input('enter UTCDateTime: ')
+                updatedafter= UTCDateTime(t)
+            if var == '21':
+                waveform = raw_input('enter boolean: ')
+            if var == '22':
+                time_after = raw_input('enter float: ')
+            if var == '23':
+                attach_response == True
+                units = raw_input('enter ACC, VEL or DISP: ')
+               
+    try:
+        print 'Retriving event data ...\n'
+        cat= client.get_events(starttime=starttime, endtime=endtime, 
+        minlatitude=minlatitude, maxlatitude=maxlatitude, 
+        minlongitude=minlongitude, maxlongitude=maxlongitude, 
+        latitude=latitude, longitude=longitude, minradius=minradius, 
+        maxradius=minradius, mindepth=mindepth, maxdepth=maxdepth, 
+        minmagnitude=minmagnitude, maxmagnitude=maxmagnitude, magnitudetype=None, 
+        includeallorigins=includeallorigins, includeallmagnitudes=includeallmagnitudes,
+        includearrivals=includearrivals, eventid=None, limit=limit, offset=offset, 
+        orderby=None, catalog=None, contributor=None, updatedafter=updatedafter, 
+        filename=None)
+	
+        for event in cat:
+            try:
+                print event
+                event_time = event.preferred_origin().time
+                event_name = event.resource_id.resource_id.split('/')[2]
+                event.write(event_name, format="QUAKEML")
+                print 'Output file name: ' +  event_name         
+                if waveform == True:
+                    print 'Downloading event waveforms\n' 
+                    event_endtime = event_time + timeafter 
+                    try:
+                        print 'Please set the default valeous typing 0\n'
+                        get_waveform_events(client, event_time, event_endtime, event_name, units, attach_response)
+                    except Exception as e: 
+                        print e
+                        print 'Error: No waveform downloaded'
+                        
+            except Exception as e:
+                print e
+                print event_name
+                continue
+    except Exception as e: 
+        print e 
+        print 'Event ' + 'failed downloading'
+        #sys.exit()
+        pass
+        
+    return
+def get_waveform_events(client, starttime, endtime, w_name, attache_response, units):
+    
+    network = "*"
+    station = '*'
+    location = "*" 
+    channel = "*" 
+    quality=None
+    minimumlength=None 
+    longestonly=None 
+    filename=None 
+         
+    try:
+        print 'Retriving waveforms... '
+        
+        st = client.get_waveforms(network, station, location, channel, starttime, endtime, quality=quality, minimumlength=minimumlength, longestonly=longestonly, filename=None, attach_response=attach_response)
+        st.write(name + '_raw.mseed', 'mseed')
+        print 'Output file name: ' +  w_name + '_raw.mseed' 
+        
+        if units != None and attach_response==True:
+            print 'Correcting data to ' + units + ' ...'
+            pre_filt = (0.005, 0.006, 30.0, 35.0)
+            try:
+                st.remove_response(output= units, pre_filt=pre_filt)            
+                st.write(w_name + '_'+ units +'.mseed', 'mseed')
+                print 'Output file name of corrected waveform: ' +  name + '_'+ units
+            except Exception as e: 
+                print e
+                print '\nWaveform was not corrected'
+
+    except Exception as e: 
+        print e
+        print "\n No data available"
+        sys.exit()
+    return
+def get_waveform(client):
+    #Default input
+
+    starttime = UTCDateTime() - 3600
+    deltat = 60
+    network = "*"
+    station = "*"
+    location = "*" 
+    channel = "*" 
+    quality=None
+    minimumlength=None 
+    longestonly=None 
+    filename=None 
+    attach_response=False
+    units=None
+    
+    #Constume inputs
+    print '\nOptional parameters for waveform request.\n' 
+    print '*Multiple networt, station, location and channel codes are comma-separated e.g."IU,TA".'
+    print '*Wildcards are allowed.\n'
+    print '0. Continue with the rest of default values'
+    print '1. Starttime (yyyy,mm,dd,hh,mm,ss).'
+    print '2. Lenght of request (minutes).'
+    print '3. Network: Select one or more network codes.' 
+    print '4. Station: Select one or more station codes.'
+    print '5. Location: Select one or more location identifiers.' 
+    print '6. Channel: Select one or more channel codes. (e.g. "BHZ,HHZ").'
+    print '7. Minimum length (float): Limit results to continuous data segments of a minimum length specified in seconds.'
+    print '8. Longest only (bool): Limit results to the longest continuous segment per channel.'
+    print '9. Filename: If given, the downloaded data will be saved there instead of being parse to an ObsPy object. Thus it will contain the raw data from the webservices.'
+    print '10. Attach response (bool): Specify whether the station web service should be used to automatically attach response information to each trace in the result set.'
+    print '11. Calculate corrected traces to acceleration, velocity or displacement: Remove the instrument response.'
+    
+    
+    while True:
+        var = raw_input("\nType the number of your option: ")
+        if var.strip() == '0':
+            break
+        else:
+            if var == '1':
+                try:
+                    t = raw_input('enter date: yyyy mm dd hhmmss ')
+                    starttime = UTCDateTime(t)
+                    print str(starttime)
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            elif var == '2':
+                try:
+                    deltat = (float(raw_input('enter float: ')))
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            elif var == '3':
+                try: 
+                    network= raw_input('enter networks: ')
+                except:
+                    print 'Input Error'
+            elif var == '4':
+                try:
+                    station= raw_input('enter stations: ')
+                except:
+                    print 'Input Error'                    
+            elif var == '5':
+                try:
+                    location= raw_input('enter locations: ')
+                except:
+                    print 'Input Error'                    
+            elif var == '6':
+                try:
+                    channel= raw_input('enter channels: ')
+                except:
+                    print 'Input Error'                    
+            elif var == '7':
+                try:
+                    minimumlength= float(raw_input('enter float: '))
+                except:
+                    print 'Input Error'                    
+            elif var == '8':
+                try:
+                    longestonly= bool(raw_input('enter boolean: '))
+                except:
+                    print 'Input Error'                    
+            elif var == '9':
+                try:
+                    filename= raw_input('enter filename: ')
+                except:
+                    print 'Input Error'                    
+            elif var == '10':
+                try:
+                    attach_response= bool(raw_input('enter boolean: '))
+                except:
+                    print 'Input Error'
+            elif var == '11':
+                try: 
+                    units = raw_input('enter ACC, VEL or DISP: ')
+                except:
+                    print 'Input error'
+    
+    endtime = starttime + delta*60
+    w_name = str(starttime.format_fissures()) + '_' + str(deltat)+'m'
+    
+    try:
+        print 'Retriving waveforms... '
+        
+        st = client.get_waveforms(network, station, location, channel, starttime, endtime, quality=quality, minimumlength=minimumlength, longestonly=longestonly, filename=None, attach_response=attach_response)
+        st.write(name + '_raw.mseed', 'mseed')
+        print 'Output file name: ' +  w_name + '_raw.mseed' 
+        
+        if units != None and attach_response==True:
+            print 'Correcting data to ' + units + ' ...'
+            pre_filt = (0.005, 0.006, 30.0, 35.0)
+            try:
+                st.remove_response(output= units, pre_filt=pre_filt)            
+                st.write(w_name + '_'+ units +'.mseed', 'mseed')
+                print 'Output file name of corrected waveform: ' +  name + '_'+ units
+            except Exception as e: 
+                print e
+                print '\nWaveform was not corrected'
+
+    except Exception as e: 
+        print e
+        print "\n No data available"
+        sys.exit()
+    return
+def get_inventory(client):
+    #Default INPUT
+    starttime = UTCDateTime() - 3600*24*365
+    #endtime = starttime + 3600*24*29*
+    endtime = UTCDateTime() - 3600
+    startbefore=None
+    startafter=None
+    endbefore=None
+    endafter=None
+    network = "*"
+    station="*"
+    location="*"
+    channel="*"
+    minlatitude=None
+    maxlatitude=None
+    minlongitude=None
+    maxlongitude=None
+    latitude=None
+    longitude=None
+    minradius=None
+    maxradius=None
+    level= 'channel'
+    includeavailability=None
+    updatedafter=None
+    matchtimeseries=None
+    format='xml'
+ 
+    #Costume input
+    print '\nOptional Parameters for stations inventory requests:'
+    print '   *** Multiple codes are comma-separated (e.g. "IU,TA").\n'
+    print '0. Default values'
+    print '1. Start time (yyyy,mm,dd,hh,mm,ss).'
+    print '2. End time (yyyy,mm,dd,hh,mm,ss).'
+    print '3. Start before (UTCDateTime): Limit to metadata epochs starting before specified time.'
+    print '4. Start after (UTCDateTime): Limit to metadata epochs starting after specified time.'  
+    print '5. End before (UTCDateTime): Limit to metadata epochs ending before specified time.'
+    print '6. End after (UTCDateTime): Limit to metadata epochs ending after specified time.'
+    print '7. Network: Select one or more network codes.'
+    print '8. Station: Select one or more SEED station codes.'
+    print '9. Location: Select one or more location identifiers.'
+    print '10. Channel: Select one or more channel codes.'
+    print '11. Minlatitude: Limit to stations with a latitude larger than the specified minimum.'
+    print '12. Maxlatitude: Limit to stations with a latitude smaller than the specified maximum.'
+    print '13. Minlongitude: Limit to stations with longitude larger than the specified minimum.'
+    print '14. Maxlongitude: Limit to stations with longitude smaller than the specified maximum.'
+    print '15. Latitude: Specify the latitude to be used for a radius search.'
+    print '16. Longitude: Specify the longitude to the used for a radius search.'
+    print '17. Minradius: Limit results to stations within the specified minimum number of degrees from the geographic point defined by the latitude and longitude parameters.'
+    print '18. Maxradius: Limit results to stations within the specified maximum number of degrees from the geographic point defined by the latitude and longitude parameters.'
+    print '19. Level: Specify the level of detail for the results ("network", "station", "channel","response"), e.g. specify "response" to get information including instrument response for each channel.'
+    print '20. Includeavailability (bool) Specify if results should include information about time series data availability.'
+    print '21. Updatedafter (UTCDateTime) Limit to metadata updated after specified date.'
+    print '22. Matchtimeseries (bool): Only include data for which matching time series data is available.'
+
+    while True:
+        var = raw_input("\nType the number of your option: ")
+        if var.strip() == '0':
+            break
+        else:
+            if var == '1':
+                try:
+                    t = raw_input('enter date: yyyy mm dd hhmmss ')
+                    starttime = UTCDateTime(t)
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            if var == '2':
+                try:
+                    t = raw_input('enter date: yyyy mm dd hhmmss ')
+                    endtime = UTCDateTime(t)                    
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            if var == '3':
+                t= raw_input('enter UTCDateTime: ')
+                startbefore= UTCDateTime(t)
+            if var == '4':
+                t= raw_input('enter UTCDateTime: ')
+                startafter=  UTCDateTime(t)
+            if var == '5':
+                t= raw_input('enter UTCDateTime: ')
+                endbefore=  UTCDateTime(t) 
+            if var == '6':
+                t= raw_input('enter UTCDateTime: ')
+                endafter=  UTCDateTime(t) 
+            if var == '7':
+                network=  raw_input('enter network code: ')
+            if var == '8':
+                station= raw_input('enter station code: ')
+            if var == '9':
+                location= raw_input('enter location: ')
+            if var == '10':
+                channel= raw_input('enter channel')
+            if var == '11':
+                minlatitude= float(raw_input('enter float: '))
+            if var == '12':
+                maxlatitude= float(raw_input('enter float: '))
+            if var == '13':
+                minlongitude= float(raw_input('enter float: ')) 
+            if var == '14':
+                maxlongitude= float(raw_input('enter float: ')) 
+            if var == '15':
+                latitude= float(raw_input('enter float: '))
+            if var == '16':
+                longitude= float(raw_input('enter float: '))
+            if var == '17':
+                minradious= float( raw_input('enter float: '))
+            if var == '18':
+                maxradius= float(raw_input('enter float: ')) 
+            if var == '19':
+                level= raw_input('enter level (network, station, channel, response): ')
+            if var == '20':
+                includeavailability = bool(raw_input('enter boolean: ')) 
+            if var == '21':
+                t =raw_input('enter UTCDateTime: ')
+                updatedafter= UTCDateTime(t)
+            if var == '22':
+                matchtimeseries= bool(raw_input('enter boolean: ')) 
+    i_name = str(starttime.format_fissures()) + '_inventory'  
+    try:
+        print '\nRetriving metadata...\n'
+        inventory = client.get_stations(starttime=starttime, endtime=endtime, startbefore=startbefore, startafter=startafter, endbefore=endbefore, endafter=endafter, network=network, station=station, location=location, channel=channel, minlatitude=minlatitude, maxlatitude=maxlatitude, minlongitude=minlongitude, maxlongitude=maxlongitude, latitude=latitude, longitude=longitude, minradius=minradius, maxradius=maxradius, level=level, includerestricted=None, includeavailability=includeavailability, updatedafter=updatedafter, matchtimeseries=matchtimeseries, filename=None, format=format)
+        
+        inventory.write(i_name + '.xml', format="STATIONXML")
+        print inventory
+        print '\n Output file name: ' +  i_name    
+        #inv.plot(self, projection=u'global', resolution=u'l', continent_fill_color=u'0.9', water_fill_color=u'1.0', marker=u'v', size=225, label=True, color=u'#b15928', color_per_network=False, colormap=u'Paired', legend=u'upper left', time=None, show=True, outfile=None, method=None, fig=None, **kwargs)
+    except Exception, e: 
+        print e
+        print 'Input parameters error'
+        sys.exit()
+    
+    return
+
+def main():
+    port_fdsn = "8091"
+    #Default values
+    request_type = 'e'
+    server_IP = 'http://10.100.100.232'
+  
+            
+    #Costume input
+    print 'Input Parameters for requests \n'
+    print '0. Default values'
+    print '1. Select type of request. waveform(w), event(e) inventory(i)'
+    print '2. Server IP (232, 13)'
+        
+    while True:
+        var = raw_input("Type the number of your option: ")
+        if var.strip() == '0':
+            break
+        else:
+            if var == '1':
+                try:
+                    request_type= raw_input('enter request id (w, e, i): ') 
+                except:
+                    print 'Input Error'
+                    sys.exit()
+            elif var == '2':
+                try:                    
+                    IP= raw_input('enter server ending code (232, 13): ')
+                    server_IP = 'http://10.100.100.' + IP
+                except:
+                    print 'Input Error'
+                    sys.exit()
+    try:
+        client = Client(server_IP+":"+port_fdsn)
+    except Exception, e: 
+        print e
+        print "Error en cliente FDSN"
+        sys.exit()
+
+    if request_type == 'w':
+        get_waveform(client)
+	
+    elif request_type == 'e':
+        get_catalogue(client)
+        
+    elif request_type == 'i':
+        get_inventory(client)
+    else:
+        print 'Invalid request type'
+    
+    print 'THANKS!'
+if __name__ == '__main__':
+    main()
+
