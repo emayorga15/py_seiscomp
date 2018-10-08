@@ -5,6 +5,7 @@ Daniel Siervo <dsiervo@sgc.gov.co>
 from obspy import UTCDateTime
 from obspy.clients.fdsn import Client
 from obspy.core.event import ResourceIdentifier
+from datetime import timedelta
 import numpy as np
 import os
 
@@ -30,9 +31,9 @@ os.system("mkdir %s"%folder_name)
 for event in cat:
     try:
         #print event
-        time = event.preferred_origin().time
+        time = event.preferred_origin().time - timedelta(hours=0, minutes=2)
         # la forma de onda empieza 2 min antes del sismo
-        min_w = time.minute - 2
+        min_w = time.minute
         event_id = event.resource_id.resource_id.split('/')[2]
         print event_id
         # "ARC PRV   HHZ CM 00 2018 0814 1418 03   300"
