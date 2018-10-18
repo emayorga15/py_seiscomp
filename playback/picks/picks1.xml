@@ -1,0 +1,1396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seiscomp xmlns="http://geofon.gfz-potsdam.de/ns/seiscomp3-schema/0.10" version="0.10">
+  <EventParameters>
+    <pick publicID="20180201.020006.67-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T02:00:06.678393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.276052Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.044856.93-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T04:48:56.938393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.383228Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.053912.02-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T05:39:12.028393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.430855Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.060422.18-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T06:04:22.188393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.462182Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.062756.72-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T06:27:56.728393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.513674Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.075527.67-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T07:55:27.678393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.62562Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.083421.28-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T08:34:21.288393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.682793Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.111211.78-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T11:12:11.788393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.81329Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.111543.02-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T11:15:43.028393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.848785Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.114215.18-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T11:42:15.188393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.90733Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.114339.44-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T11:43:39.448393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.931234Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.144904.74-AIC-CM.MACC.00.HHN">
+      <time>
+        <value>2018-02-01T14:49:04.748393Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,1,15)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:39.137062Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.012929.47-AIC-CM.ACH4.00.HHN">
+      <time>
+        <value>2018-02-01T01:29:29.47Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="ACH4" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,8.5,15.0)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:44.65303Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.012928.94-AIC-CM.ACH2.00.HHN">
+      <time>
+        <value>2018-02-01T01:29:28.94Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="ACH2" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,8.5,15.0)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:46.578123Z</creationTime>
+      </creationInfo>
+    </pick>
+    <pick publicID="20180201.012929.39-AIC-CM.ACH1.00.HHN">
+      <time>
+        <value>2018-02-01T01:29:29.39Z</value>
+      </time>
+      <waveformID networkCode="CM" stationCode="ACH1" locationCode="00" channelCode="HHN"/>
+      <filterID>BW(4,8.5,15.0)</filterID>
+      <methodID>AIC</methodID>
+      <phaseHint>P</phaseHint>
+      <evaluationMode>automatic</evaluationMode>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:50.791804Z</creationTime>
+      </creationInfo>
+    </pick>
+    <amplitude publicID="20180201.020006.67-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.96125549</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T02:00:06.678393Z</reference>
+        <begin>-28.36</begin>
+        <end>11.64</end>
+      </timeWindow>
+      <snr>10.96125549</snr>
+      <pickID>20180201.020006.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.276052Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.020006.67-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>26.47928452</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T02:00:08.318393Z</reference>
+        <begin>-6.64</begin>
+        <end>28.36</end>
+      </timeWindow>
+      <period>
+        <value>0.4575</value>
+      </period>
+      <snr>5.378605543</snr>
+      <pickID>20180201.020006.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.282513Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.020006.67-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>1567.843191</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T02:00:08.858393Z</reference>
+        <begin>-7.18</begin>
+        <end>57.82</end>
+      </timeWindow>
+      <snr>5.780131954</snr>
+      <pickID>20180201.020006.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.28608Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.020006.67-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.1341086867</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T02:00:08.878393Z</reference>
+        <begin>-7.2</begin>
+        <end>147.8</end>
+      </timeWindow>
+      <snr>5.83455577</snr>
+      <pickID>20180201.020006.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.294803Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.044856.93-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>28.79066377</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T04:48:56.938393Z</reference>
+        <begin>-29.68</begin>
+        <end>10.32</end>
+      </timeWindow>
+      <snr>28.79066377</snr>
+      <pickID>20180201.044856.93-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.383228Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.044856.93-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>305.1930353</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T04:48:57.988393Z</reference>
+        <begin>-6.05</begin>
+        <end>28.95</end>
+      </timeWindow>
+      <period>
+        <value>1.07</value>
+      </period>
+      <snr>63.6556788</snr>
+      <pickID>20180201.044856.93-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.392203Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.044856.93-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>2953.671721</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T04:48:57.558393Z</reference>
+        <begin>-5.62</begin>
+        <end>59.38</end>
+      </timeWindow>
+      <snr>14.60529859</snr>
+      <pickID>20180201.044856.93-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.395658Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.044856.93-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.8404563982</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T04:48:57.548393Z</reference>
+        <begin>-5.61</begin>
+        <end>149.39</end>
+      </timeWindow>
+      <snr>39.410078</snr>
+      <pickID>20180201.044856.93-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.403665Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.053912.02-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>18.45794867</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T05:39:12.028393Z</reference>
+        <begin>-28.05</begin>
+        <end>11.95</end>
+      </timeWindow>
+      <snr>18.45794867</snr>
+      <pickID>20180201.053912.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.430855Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.053912.02-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>70.58360825</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T05:39:37.608393Z</reference>
+        <begin>-30.58</begin>
+        <end>4.42</end>
+      </timeWindow>
+      <period>
+        <value>0.695</value>
+      </period>
+      <snr>15.93277149</snr>
+      <pickID>20180201.053912.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.43602Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.053912.02-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>1191.286999</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T05:39:47.618393Z</reference>
+        <begin>-40.59</begin>
+        <end>24.41</end>
+      </timeWindow>
+      <snr>7.085120983</snr>
+      <pickID>20180201.053912.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.440874Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.053912.02-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.4845119999</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T05:41:41.788393Z</reference>
+        <begin>-154.76</begin>
+        <end>0.24</end>
+      </timeWindow>
+      <snr>30.89644202</snr>
+      <pickID>20180201.053912.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.448008Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.060422.18-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>24.73886698</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:04:22.188393Z</reference>
+        <begin>-29.74</begin>
+        <end>10.26</end>
+      </timeWindow>
+      <snr>24.73886698</snr>
+      <pickID>20180201.060422.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.462182Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.060422.18-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>92.92781389</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:04:24.058393Z</reference>
+        <begin>-6.87</begin>
+        <end>28.13</end>
+      </timeWindow>
+      <period>
+        <value>0.8</value>
+      </period>
+      <snr>18.64962204</snr>
+      <pickID>20180201.060422.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.471925Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.060422.18-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>2921.425844</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:04:23.748393Z</reference>
+        <begin>-6.56</begin>
+        <end>58.44</end>
+      </timeWindow>
+      <snr>8.670749974</snr>
+      <pickID>20180201.060422.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.481865Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.060422.18-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.4400796055</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:04:24.258393Z</reference>
+        <begin>-7.07</begin>
+        <end>147.93</end>
+      </timeWindow>
+      <snr>15.49942711</snr>
+      <pickID>20180201.060422.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.494695Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.062756.72-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>49.83304876</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:27:56.728393Z</reference>
+        <begin>-29.87</begin>
+        <end>10.13</end>
+      </timeWindow>
+      <snr>49.83304876</snr>
+      <pickID>20180201.062756.72-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.513674Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.062756.72-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>407.2906319</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:27:58.268393Z</reference>
+        <begin>-6.54</begin>
+        <end>28.46</end>
+      </timeWindow>
+      <period>
+        <value>0.5425</value>
+      </period>
+      <snr>57.50435135</snr>
+      <pickID>20180201.062756.72-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.523765Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.062756.72-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>15994.17652</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:27:58.278393Z</reference>
+        <begin>-6.55</begin>
+        <end>58.45</end>
+      </timeWindow>
+      <snr>38.87817791</snr>
+      <pickID>20180201.062756.72-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.533754Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.062756.72-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2.050685425</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T06:27:58.308393Z</reference>
+        <begin>-6.58</begin>
+        <end>148.42</end>
+      </timeWindow>
+      <snr>49.42458588</snr>
+      <pickID>20180201.062756.72-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.547052Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.075527.67-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>16.82197324</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T07:55:27.678393Z</reference>
+        <begin>-6.07</begin>
+        <end>33.93</end>
+      </timeWindow>
+      <snr>16.82197324</snr>
+      <pickID>20180201.075527.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.62562Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.075527.67-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>22.61398957</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T07:55:52.108393Z</reference>
+        <begin>-29.43</begin>
+        <end>5.57</end>
+      </timeWindow>
+      <period>
+        <value>0.8825</value>
+      </period>
+      <snr>5.356857082</snr>
+      <pickID>20180201.075527.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.635893Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.075527.67-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>1406.699102</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T07:55:47.298393Z</reference>
+        <begin>-24.62</begin>
+        <end>40.38</end>
+      </timeWindow>
+      <snr>3.101170708</snr>
+      <pickID>20180201.075527.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.646723Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.075527.67-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.06699786354</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T07:56:05.398393Z</reference>
+        <begin>-42.72</begin>
+        <end>112.28</end>
+      </timeWindow>
+      <snr>3.853488778</snr>
+      <pickID>20180201.075527.67-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.659284Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.083421.28-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>20.44419712</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T08:34:21.288393Z</reference>
+        <begin>-28.85</begin>
+        <end>11.15</end>
+      </timeWindow>
+      <snr>20.44419712</snr>
+      <pickID>20180201.083421.28-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.682793Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.083421.28-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>31.96861765</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T08:34:22.188393Z</reference>
+        <begin>-5.9</begin>
+        <end>29.1</end>
+      </timeWindow>
+      <period>
+        <value>0.405</value>
+      </period>
+      <snr>6.416851896</snr>
+      <pickID>20180201.083421.28-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.687891Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.083421.28-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>926.8417406</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T08:34:23.818393Z</reference>
+        <begin>-7.53</begin>
+        <end>57.47</end>
+      </timeWindow>
+      <snr>4.756415294</snr>
+      <pickID>20180201.083421.28-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.692772Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.083421.28-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.1187709233</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T08:34:22.108393Z</reference>
+        <begin>-5.82</begin>
+        <end>149.18</end>
+      </timeWindow>
+      <snr>6.515489976</snr>
+      <pickID>20180201.083421.28-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.699062Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111211.78-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>16.09340361</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:12:11.788393Z</reference>
+        <begin>-25.36</begin>
+        <end>14.64</end>
+      </timeWindow>
+      <snr>16.09340361</snr>
+      <pickID>20180201.111211.78-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.81329Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111211.78-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>152.043434</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:12:25.148393Z</reference>
+        <begin>-18.36</begin>
+        <end>16.64</end>
+      </timeWindow>
+      <period>
+        <value>0.45</value>
+      </period>
+      <snr>21.43008127</snr>
+      <pickID>20180201.111211.78-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.826461Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111211.78-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>18251.00895</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:12:28.128393Z</reference>
+        <begin>-21.34</begin>
+        <end>43.66</end>
+      </timeWindow>
+      <snr>9.102207933</snr>
+      <pickID>20180201.111211.78-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.831748Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111211.78-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9039620403</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:12:25.418393Z</reference>
+        <begin>-18.63</begin>
+        <end>136.37</end>
+      </timeWindow>
+      <snr>21.61698668</snr>
+      <pickID>20180201.111211.78-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.844762Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111543.02-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.0561043</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:15:43.028393Z</reference>
+        <begin>-26.61</begin>
+        <end>13.39</end>
+      </timeWindow>
+      <snr>10.0561043</snr>
+      <pickID>20180201.111543.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.848785Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111543.02-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>144.0813056</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:15:54.318393Z</reference>
+        <begin>-16.29</begin>
+        <end>18.71</end>
+      </timeWindow>
+      <period>
+        <value>0.3475</value>
+      </period>
+      <snr>20.4771067</snr>
+      <pickID>20180201.111543.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.858409Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111543.02-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>35028.18753</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:16:04.878393Z</reference>
+        <begin>-26.85</begin>
+        <end>38.15</end>
+      </timeWindow>
+      <snr>5.979037105</snr>
+      <pickID>20180201.111543.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.863809Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.111543.02-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.9571644101</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:15:54.428393Z</reference>
+        <begin>-16.4</begin>
+        <end>138.6</end>
+      </timeWindow>
+      <snr>15.72619998</snr>
+      <pickID>20180201.111543.02-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.87737Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114215.18-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>11.52780362</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:42:15.188393Z</reference>
+        <begin>-21.91</begin>
+        <end>18.09</end>
+      </timeWindow>
+      <snr>11.52780362</snr>
+      <pickID>20180201.114215.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.90733Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114215.18-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>25.49235007</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:42:25.348393Z</reference>
+        <begin>-15.16</begin>
+        <end>19.84</end>
+      </timeWindow>
+      <period>
+        <value>0.365</value>
+      </period>
+      <snr>4.123662994</snr>
+      <pickID>20180201.114215.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.918903Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114215.18-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>147063.9561</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:42:55.648393Z</reference>
+        <begin>-45.46</begin>
+        <end>19.54</end>
+      </timeWindow>
+      <snr>4.600646917</snr>
+      <pickID>20180201.114215.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.925091Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114339.44-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>28.62570926</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:43:39.448393Z</reference>
+        <begin>-6.6</begin>
+        <end>33.4</end>
+      </timeWindow>
+      <snr>28.62570926</snr>
+      <pickID>20180201.114339.44-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.931234Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114339.44-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>120.0968328</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:44:06.358393Z</reference>
+        <begin>-31.91</begin>
+        <end>3.09</end>
+      </timeWindow>
+      <period>
+        <value>0.71</value>
+      </period>
+      <snr>4.108916332</snr>
+      <pickID>20180201.114339.44-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.94273Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114215.18-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.5560278</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:43:06.308393Z</reference>
+        <begin>-56.12</begin>
+        <end>98.88</end>
+      </timeWindow>
+      <snr>8.994787229</snr>
+      <pickID>20180201.114215.18-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.96462Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.114339.44-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.464741705</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T11:44:15.238393Z</reference>
+        <begin>-40.79</begin>
+        <end>114.21</end>
+      </timeWindow>
+      <snr>10.23277451</snr>
+      <pickID>20180201.114339.44-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:38.978725Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.144904.74-AIC-CM.MACC.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>10.56120435</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T14:49:04.748393Z</reference>
+        <begin>-22.5</begin>
+        <end>17.5</end>
+      </timeWindow>
+      <snr>10.56120435</snr>
+      <pickID>20180201.144904.74-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:39.137062Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.144904.74-AIC-CM.MACC.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>63.49153001</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T14:49:15.888393Z</reference>
+        <begin>-16.14</begin>
+        <end>18.86</end>
+      </timeWindow>
+      <period>
+        <value>0.47</value>
+      </period>
+      <snr>3.349159976</snr>
+      <pickID>20180201.144904.74-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:39.146915Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.144904.74-AIC-CM.MACC.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>6295.135536</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T14:49:10.038393Z</reference>
+        <begin>-10.29</begin>
+        <end>54.71</end>
+      </timeWindow>
+      <snr>6.31420484</snr>
+      <pickID>20180201.144904.74-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:39.151554Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.144904.74-AIC-CM.MACC.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>0.4657022873</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T14:49:25.158393Z</reference>
+        <begin>-25.41</begin>
+        <end>129.59</end>
+      </timeWindow>
+      <snr>4.04818931</snr>
+      <pickID>20180201.144904.74-AIC-CM.MACC.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="MACC" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:39.157799Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.47-AIC-CM.ACH4.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>100.6033412</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:29.47Z</reference>
+        <begin>-26.99</begin>
+        <end>13.01</end>
+      </timeWindow>
+      <snr>100.6033412</snr>
+      <pickID>20180201.012929.47-AIC-CM.ACH4.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH4" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:44.65303Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.47-AIC-CM.ACH4.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>196.347136</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:42.02Z</reference>
+        <begin>-17.55</begin>
+        <end>17.45</end>
+      </timeWindow>
+      <period>
+        <value>0.2325</value>
+      </period>
+      <snr>16.42233292</snr>
+      <pickID>20180201.012929.47-AIC-CM.ACH4.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH4" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:44.664178Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.47-AIC-CM.ACH4.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>16902.81478</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:40.41Z</reference>
+        <begin>-15.94</begin>
+        <end>49.06</end>
+      </timeWindow>
+      <snr>31.9585598</snr>
+      <pickID>20180201.012929.47-AIC-CM.ACH4.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH4" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:44.66761Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.47-AIC-CM.ACH4.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.897534357</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.94Z</reference>
+        <begin>-15.47</begin>
+        <end>139.53</end>
+      </timeWindow>
+      <snr>32.36808903</snr>
+      <pickID>20180201.012929.47-AIC-CM.ACH4.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH4" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:44.674682Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012928.94-AIC-CM.ACH2.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>60.20077314</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:28.94Z</reference>
+        <begin>-19.73</begin>
+        <end>20.27</end>
+      </timeWindow>
+      <snr>60.20077314</snr>
+      <pickID>20180201.012928.94-AIC-CM.ACH2.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH2" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:46.578123Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012928.94-AIC-CM.ACH2.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>385.6164242</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.24Z</reference>
+        <begin>-15.3</begin>
+        <end>19.7</end>
+      </timeWindow>
+      <period>
+        <value>0.5925</value>
+      </period>
+      <snr>40.51543111</snr>
+      <pickID>20180201.012928.94-AIC-CM.ACH2.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH2" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:46.58845Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012928.94-AIC-CM.ACH2.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>11665.31712</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.11Z</reference>
+        <begin>-15.17</begin>
+        <end>49.83</end>
+      </timeWindow>
+      <snr>22.73693264</snr>
+      <pickID>20180201.012928.94-AIC-CM.ACH2.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH2" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:46.600484Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012928.94-AIC-CM.ACH2.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>1.695506175</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.14Z</reference>
+        <begin>-15.2</begin>
+        <end>139.8</end>
+      </timeWindow>
+      <snr>38.88853938</snr>
+      <pickID>20180201.012928.94-AIC-CM.ACH2.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH2" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:46.615627Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.39-AIC-CM.ACH1.00.HHN.snr">
+      <type>snr</type>
+      <amplitude>
+        <value>110.0379965</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:29.39Z</reference>
+        <begin>-18.78</begin>
+        <end>21.22</end>
+      </timeWindow>
+      <snr>110.0379965</snr>
+      <pickID>20180201.012929.39-AIC-CM.ACH1.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH1" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:50.791804Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.39-AIC-CM.ACH1.00.HHN.mb">
+      <type>mb</type>
+      <amplitude>
+        <value>468.015047</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.91Z</reference>
+        <begin>-15.52</begin>
+        <end>19.48</end>
+      </timeWindow>
+      <period>
+        <value>0.3775</value>
+      </period>
+      <snr>38.19276254</snr>
+      <pickID>20180201.012929.39-AIC-CM.ACH1.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH1" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:50.802128Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.39-AIC-CM.ACH1.00.HHN.mB">
+      <type>mB</type>
+      <amplitude>
+        <value>17276.90859</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:41.11Z</reference>
+        <begin>-16.72</begin>
+        <end>48.28</end>
+      </timeWindow>
+      <snr>33.77049205</snr>
+      <pickID>20180201.012929.39-AIC-CM.ACH1.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH1" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:50.808706Z</creationTime>
+      </creationInfo>
+    </amplitude>
+    <amplitude publicID="20180201.012929.39-AIC-CM.ACH1.00.HHN.MLv">
+      <type>MLv</type>
+      <amplitude>
+        <value>2.164116714</value>
+      </amplitude>
+      <timeWindow>
+        <reference>2018-02-01T01:29:39.85Z</reference>
+        <begin>-15.46</begin>
+        <end>139.54</end>
+      </timeWindow>
+      <snr>39.71513815</snr>
+      <pickID>20180201.012929.39-AIC-CM.ACH1.00.HHN</pickID>
+      <waveformID networkCode="CM" stationCode="ACH1" locationCode="00" channelCode="HHN"/>
+      <creationInfo>
+        <agencyID>SGC</agencyID>
+        <author>pick_b_N@vega2.sgc.gov.co</author>
+        <creationTime>2018-10-12T20:21:50.823732Z</creationTime>
+      </creationInfo>
+    </amplitude>
+  </EventParameters>
+</seiscomp>
