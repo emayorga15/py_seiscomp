@@ -46,6 +46,7 @@ class InvApp(seiscomp3.Client.Application):
 		lines.sort()
 		f = open("stations.csv", "w")
 		for line in lines:
+			print line
 			print >>f, line
 		
 		f.close()

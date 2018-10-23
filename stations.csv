@@ -1,0 +1,317 @@
+BR, BOAV ,    2.3953,  -60.5225,  114.0, ,  RR  
+BR, CZSB ,   -7.7299,  -72.7049,  196.0, ,  AC  
+BR, SGCB ,   -0.1223,  -67.0306,   70.0, ,  AM  
+BR, TBTG ,   -4.1868,  -69.9090,   91.0, ,  AM  
+CM, ACH1 ,    3.9422,  -73.6711,  491.0, 00,  Colombia
+CM, ACH2 ,    3.9445,  -73.7031,  502.0, 00,  Colombia
+CM, ACH3 ,    3.9199,  -73.6809,  466.0, 00,  Colombia
+CM, ACH4 ,    3.9650,  -73.6621,  438.0, 00,  Colombia
+CM, ACH5 ,    3.8978,  -73.5794,  362.0, 00,  Colombia
+CM, ACH6 ,    3.8974,  -73.7812,  566.0, 00,  Colombia
+CM, ACH7 ,    4.0403,  -73.6995,  483.0, 00,  Colombia
+CM, AGCC ,    8.5121,  -73.5850,  457.0, 00,  Colombia
+CM, APAC ,    7.9000,  -76.5802,  103.9, 00,  Colombia
+CM, APAC ,    7.9000,  -76.5802,  103.9, 10,  Colombia
+CM, APTC ,    7.9005,  -76.5806,  209.0, 00,  Colombia
+CM, ARGC ,    9.8577,  -74.2458,  187.0, 00,  Colombia
+CM, ARGC ,    9.8577,  -74.2458,  187.0, 10,  Colombia
+CM, ARGC ,    9.8577,  -74.2458,  187.0, 40,  Colombia
+CM, ARMEC,    4.5560,  -75.6600, 1554.0, 10,  Quindio
+CM, BAR2 ,    6.5920,  -73.1820, 1864.0, 00,  Colombia
+CM, BAR2 ,    6.5920,  -73.1820, 1864.0, 10,  Colombia
+CM, BAR2 ,    6.5920,  -73.1820, 1864.0, 20,  Colombia
+CM, BBAC ,    2.0215,  -77.2468, 1713.0, 00,  Cauca - Colombia
+CM, BET  ,    2.7225,  -75.4178,  540.0, 10,      
+CM, BET  ,    2.7225,  -75.4178,  540.0, 20,      
+CM, BOG  ,    4.6410,  -74.0800, 2584.0, 10,  SGC 
+CM, BOG  ,    4.6410,  -74.0800, 2584.0, 11,  SGC 
+CM, BRJC ,    6.9732,  -73.7442,  108.0, 00,  Colombia
+CM, BRR  ,    7.1072,  -73.7120,  137.0, 00,  Colombia
+CM, CAP2 ,    8.6445,  -77.3604,  221.0, 00,  Colombia
+CM, CAP2 ,    8.6445,  -77.3604,  221.0, 10,  Colombia
+CM, CAQC ,    4.4022,  -73.9862, 2041.0, 00,  Cundinamarca
+CM, CBOC ,    5.8643,  -76.0122, 1401.0, 00,  Colombia
+CM, CCALA,    4.5090,  -75.6276, 1795.0, 10,  Colombia
+CM, CH1C ,    8.0658,  -77.1341,  356.0, 00,  Colombia
+CM, CH2C ,    8.4953,  -77.2687,   24.0, 00,  Colombia
+CM, CHI  ,    4.6295,  -73.7371, 3140.0, 00,  Cundinamarca
+CM, CMOC1,    1.1947,  -76.6398,  721.0, 10,  Colombia
+CM, CMOC2,    1.1556,  -76.6436,  586.0, 10,  Colombia
+CM, CMOC3,    1.1370,  -76.6449,  649.0, 10,  Colombia
+CM, CMOC4,    1.1441,  -76.6659,  717.0, 10,  Colombia
+CM, CMOC5,    1.1572,  -76.6517,  645.0, 10,  Colombia
+CM, COD  ,    9.9350,  -73.4440,  108.0, 00,  Colombia
+CM, CONO ,    2.3277,  -76.3970, 4294.0, 00,  Colombia
+CM, CREAC,    4.6336,  -74.0880, 2575.0, 10,  Bogota
+CM, CRJC ,   11.0200,  -72.8816,  827.0, 00,  Colombia
+CM, CRU  ,    1.5680,  -76.9510, 2761.0, 10,  Colombia
+CM, CRU  ,    1.5680,  -76.9510, 2761.0, 20,  Colombia
+CM, CTRUJ,    4.2190,  -76.3220, 1388.0, 10,  Colombia
+CM, CUFI ,    1.2260,  -77.3450, 3653.0, 10,  Narino
+CM, CUM  ,    0.9410,  -77.8250, 3420.0, 10,  Colombia
+CM, CUM  ,    0.9410,  -77.8250, 3420.0, 20,  Colombia
+CM, CVER ,    4.5211,  -74.0738, 3604.0, 00,  Cundinamarca
+CM, DBB  ,    7.0180,  -76.2100,  756.0, 00,  Colombia
+CM, DBB  ,    7.0180,  -76.2100,  756.0, 10,  Colombia
+CM, DBB  ,    7.0180,  -76.2100,  756.0, 20,  Colombia
+CM, DRL01,    9.7089,  -73.6650,   68.0, 30,      
+CM, DRL01,    9.7089,  -73.6650,   68.0, 30,      
+CM, DRL02,    9.7353,  -73.2704,  140.0, 30,      
+CM, DRL03,    9.3917,  -73.4749,   86.0, 30,      
+CM, DRL04,    9.6074,  -73.5234,   81.0, 10,      
+CM, DRL04,    9.6074,  -73.5234,   81.0, 30,      
+CM, DRL05,    9.6244,  -73.4767,   89.0, 20,      
+CM, DRL06,    9.5771,  -73.4727,   81.0, 20,      
+CM, DRL07,    9.6074,  -73.5234,   81.0, 10,      
+CM, EZNC ,    7.6257,  -73.3171,  479.0, 00,  Colombia
+CM, EZNC ,    7.6257,  -73.3171,  479.0, 20,  Colombia
+CM, FLO2 ,    1.5827,  -75.6527,  365.0, 00,  Colombia
+CM, FLO2 ,    1.5827,  -75.6527,  365.0, 10,  Colombia
+CM, FOM  ,    4.4750,  -73.8593, 2383.0, 00,  Cundinamarca
+CM, GARC ,    2.1867,  -75.4932, 1999.0, 00,  Colombia
+CM, GARC ,    2.1867,  -75.4932, 1999.0, 10,  Colombia
+CM, GR1C ,    3.0030,  -78.1670,   39.0, 00,  Cauca
+CM, GR1C ,    3.0030,  -78.1670,   39.0, 10,  Cauca
+CM, GR1C ,    3.0030,  -78.1670,   39.0, 20,  Cauca
+CM, GUA  ,    2.5450,  -72.6270,  217.0, 10,  Colombia
+CM, GUA  ,    2.5450,  -72.6270,  217.0, 20,  Colombia
+CM, GUY2C,    5.2242,  -75.3647, 3605.0, 00,  Colombia
+CM, GUY2C,    5.2242,  -75.3647, 3605.0, 10,  Colombia
+CM, HEL  ,    6.1909,  -75.5290, 2857.0, 00,  Colombia
+CM, HI1C ,    7.1318,  -75.6585,  200.0, 20,  Colombia
+CM, HI2C ,    7.1322,  -75.6667,  200.0, 20,  Colombia
+CM, HI3C ,    7.1364,  -75.6525,  460.0, 20,  Antioquia
+CM, HI4C ,    7.1339,  -75.6464,  479.0, 00,  Antioquia
+CM, HI5C ,    7.1339,  -75.6464,  200.0, 00,  Colombia
+CM, HI6C ,    7.1364,  -75.6525,  200.0, 20,  Colombia
+CM, HI7C ,    7.1364,  -75.6686,  524.0, 20,  Antioquia
+CM, HI8C ,    7.1278,  -75.6715,  200.0, 20,  Colombia
+CM, IBA1C,    4.4470,  -75.2350, 1289.0, 10,  Tolima
+CM, JAMC ,    3.2148,  -76.6735, 1760.0, 00,  Colombia
+CM, JAMC ,    3.2148,  -76.6735, 1760.0, 10,  Colombia
+CM, LCBC ,    8.8572,  -76.3677,   75.0, 00,  Colombia
+CM, LL1C ,    9.6077,  -73.5233,   49.0, 00,  Colombia
+CM, LL1C ,    9.6077,  -73.5233,   49.0, 00,  Colombia
+CM, LL2C ,    9.5552,  -73.4386,   78.0, 00,  Colombia
+CM, LL3C ,    9.7266,  -73.4128,   81.0, 00,  Colombia
+CM, LL4C ,    9.6958,  -73.5530,   50.0, 00,  Colombia
+CM, LL5C ,    9.7497,  -73.7211,   32.0, 00,  Cesar
+CM, LL6C ,    9.7353,  -73.2706,  158.0, 00,  Cesar
+CM, LL6C ,    9.7353,  -73.2706,  158.0, 00,  Cesar
+CM, LL7C ,    9.3394,  -73.4372,  140.0, 00,  Cesar
+CM, LL8C ,    9.3392,  -73.7969,   58.0, 00,  Colombia
+CM, MACC ,    2.1452,  -73.8477,  283.0, 00,  Colombia
+CM, MACC ,    2.1452,  -73.8477,  283.0, 10,  Colombia
+CM, MACC ,    2.1452,  -73.8477,  283.0, 10,  Colombia
+CM, MAL  ,    4.0100,  -77.3318,  112.0, 00,  Colombia
+CM, MAL  ,    4.0100,  -77.3318,  112.0, 10,  Colombia
+CM, MAL  ,    4.0100,  -77.3318,  112.0, 20,  Colombia
+CM, MAN1C,    5.0715,  -75.5244, 2199.0, 10,  Colombia
+CM, MAP  ,    4.0037,  -81.6060,  137.0, 00,  Colombia
+CM, MARO ,    2.8425,  -75.9545, 2207.0, 00,  Colombia
+CM, MEDEC,    6.2760,  -75.5893, 1552.0, 10,  Colombia
+CM, MON  ,    8.7785,  -75.6650,  109.0, 00,  Colombia
+CM, MORC ,    8.2789,  -73.9751,  576.0, 00,  Colombia
+CM, MORC ,    8.2789,  -73.9751,  576.0, 20,  Colombia
+CM, MTTC ,    7.2123,  -76.4247,  234.0, 00,  Colombia
+CM, NIZA ,    5.0578,  -75.4707, 2240.0, 10,  Manizales
+CM, NOR  ,    5.5635,  -74.8692,  536.0, 00,  Colombia
+CM, NOR  ,    5.5635,  -74.8692,  536.0, 10,  Colombia
+CM, OCA  ,    8.2388,  -73.3193, 1264.0, 00,  Colombia
+CM, OCA  ,    8.2388,  -73.3193, 1264.0, 00,  Colombia
+CM, OCA  ,    8.2388,  -73.3193, 1264.0, 10,  Colombia
+CM, OCA  ,    8.2388,  -73.3193, 1264.0, 10,  Colombia
+CM, OCA  ,    8.2388,  -73.3193, 1264.0, 10,  Colombia
+CM, OCNC ,    0.0000,  -73.3194,    0.0, 00,  Norte de Santander
+CM, ORTC ,    3.9090,  -75.2460,  446.0, 00,  Colombia
+CM, ORTC ,    3.9090,  -75.2460,  446.0, 10,  Colombia
+CM, PAL  ,    4.9050,  -76.2830,  675.0, 00,  Colombia
+CM, PAL  ,    4.9050,  -76.2830,  675.0, 10,  Colombia
+CM, PAL  ,    4.9050,  -76.2830,  675.0, 40,  Colombia
+CM, PAM  ,    7.3395,  -72.6995, 3676.0, 10,  Colombia
+CM, PAM  ,    7.3395,  -72.6995, 3676.0, 20,  Colombia
+CM, PAS1 ,    1.1890,  -77.3320, 3227.0, 10,  Narino
+CM, PAS2 ,    1.2210,  -77.2510, 2641.0, 10,  Narino
+CM, PDSC ,    6.9920,  -73.0643,  958.0, 10,  Colombia
+CM, PGA1 ,    3.7444,  -71.5714,  186.0, 00,  Colombia
+CM, PGA1B,    3.7681,  -71.5732,  218.0, 00,  Meta
+CM, PGA2 ,    3.9016,  -71.5611,  196.0, 00,  Colombia
+CM, PGA3 ,    3.8984,  -71.5657,  191.0, 00,  Colombia
+CM, PGA4 ,    3.8636,  -71.4213,  189.0, 00,  Colombia
+CM, PGA5 ,    3.9462,  -71.3150,  204.0, 00,  Colombia
+CM, PGA5B,    3.9193,  -71.3634,  198.0, 00,  Meta
+CM, PGA6 ,    3.7753,  -71.3306,  177.0, 00,  Colombia
+CM, PIZC ,    4.9653,  -77.3597,   38.0, 00,  Colombia
+CM, PIZC ,    4.9653,  -77.3597,   38.0, 10,  Colombia
+CM, POP2 ,    2.5402,  -76.6758, 1869.0, 00,  Colombia
+CM, POP2 ,    2.5402,  -76.6758, 1869.0, 10,  Colombia
+CM, POP2 ,    2.5402,  -76.6758, 1869.0, 40,  Colombia
+CM, PRA  ,    3.7138,  -74.8862,  457.0, 00,  Colombia
+CM, PRV  ,   13.3762,  -81.3635,   38.0, 00,  Colombia
+CM, PRV  ,   13.3762,  -81.3635,   38.0, 10,  Colombia
+CM, PTA  ,    7.1472,  -77.8083,   78.0, 00,  Colombia
+CM, PTA  ,    7.1472,  -77.8083,   78.0, 10,  Colombia
+CM, PTA  ,    7.1472,  -77.8083,   78.0, 40,  Colombia
+CM, PTB  ,    6.5395,  -74.4563,  260.0, 00,  Colombia
+CM, PTB  ,    6.5395,  -74.4563,  260.0, 10,  Colombia
+CM, PTGC ,    4.1990,  -72.1338,  170.0, 00,  Colombia
+CM, PTLC ,    0.1705,  -74.7967,  240.0, 00,  Colombia
+CM, PTLC ,    0.1705,  -74.7967,  240.0, 10,  Colombia
+CM, PTLC ,    0.1705,  -74.7967,  240.0, 40,  Colombia
+CM, PUAC ,    0.5500,  -76.5700,  287.0, 00,  Colombia
+CM, QUET ,    4.3805,  -73.8831, 2196.0, 00,  Cundinamarca
+CM, RAC2C,    3.3723,  -76.5295,  988.0, 10,  Valle
+CM, RECRC,    4.9604,  -75.3525, 4136.0, 10,  Caldas
+CM, RGSC ,    4.3682,  -74.1863, 3276.0, 00,  Bogota-Cundinamarca-Colombia
+CM, ROSC ,    4.8449,  -74.3212, 2987.0, ,  Colombia
+CM, ROSC ,    4.8449,  -74.3212, 2987.0, 10,  Colombia
+CM, RUS  ,    5.8925,  -73.0832, 3697.0, 00,  Colombia
+CM, RUS  ,    5.8925,  -73.0832, 3697.0, 01,  Colombia
+CM, SA1C ,    8.3546,  -72.4890,  129.0, 00,  Colombia
+CM, SA2C ,    8.0448,  -72.3815,  590.0, 00,  Colombia
+CM, SBTC ,    4.4775,  -74.2873, 2710.0, 00,  Cundinamarca- Colombia
+CM, SJC  ,    9.8967,  -75.1795,  596.0, 00,  Colombia
+CM, SJC  ,    9.8967,  -75.1795,  596.0, 10,  Colombia
+CM, SMAR ,   11.1638,  -74.2245,  122.0, 00,  Colombia
+CM, SMAR ,   11.1638,  -74.2245,  122.0, 10,  Colombia
+CM, SML  ,    8.8010,  -74.0713,  116.0, 00,  Colombia
+CM, SML1C,    8.8625,  -73.9923,   36.0, 00,  Colombia
+CM, SML1C,    8.8625,  -73.9923,   36.0, 00,  Colombia
+CM, SMORC,    4.5745,  -74.1700, 2822.0, 00,  Cundinamarca
+CM, SNPBC,    7.6231,  -74.0455,  149.0, 00,  Colombia
+CM, SNPBC,    7.6231,  -74.0455,  149.0, 20,  Colombia
+CM, SOL  ,    6.2270,  -77.4087,   38.0, 10,  Colombia
+CM, SOL  ,    6.2270,  -77.4087,   38.0, 20,  Colombia
+CM, SOTO ,    2.1350,  -76.6080, 3795.0, 00,  Colombia
+CM, SPBC ,    5.6522,  -74.0723,  783.0, 00,  Colombia
+CM, SPBC ,    5.6522,  -74.0723,  783.0, 10,  Colombia
+CM, TABC ,    5.0114,  -74.2043, 3500.0, 20,  Colombia
+CM, TAM  ,    6.4354,  -71.7914,  462.1, 00,  Colombia
+CM, TAM  ,    6.4354,  -71.7914,  462.1, 10,  Colombia
+CM, TOLC ,    4.5850,  -75.3200, 2577.0, 20,  Colombia
+CM, TUM  ,    1.8237,  -78.7267,   50.0, 00,  Colombia
+CM, TUM  ,    1.8237,  -78.7267,   50.0, 00,  Colombia
+CM, TUM  ,    1.8237,  -78.7267,   50.0, 10,  Colombia
+CM, TUM3C,    1.8240,  -78.7450,   14.0, 10,  Colombia
+CM, TUM3C,    1.8240,  -78.7450,   14.0, 11,  Colombia
+CM, TVCAC,    4.7178,  -74.0846, 2685.0, 00,  Cundinamarca
+CM, URE  ,    7.7517,  -75.5327,  251.0, 00,  Colombia
+CM, URE  ,    7.7517,  -75.5327,  251.0, 10,  Colombia
+CM, URE  ,    7.7517,  -75.5327,  251.0, 40,  Colombia
+CM, URI  ,   11.7020,  -71.9930,   68.0, 00,  Colombia
+CM, URI  ,   11.7020,  -71.9930,   68.0, 10,  Colombia
+CM, URMC ,    3.2472,  -74.3788,  725.0, 00,  Colombia
+CM, URMC ,    3.2472,  -74.3788,  725.0, 10,  Colombia
+CM, VALLC,   10.5080,  -73.2580,  354.0, 10,  Cesar
+CM, VIL  ,    4.1120,  -73.6935, 1109.0, 10,  Colombia
+CM, VIL  ,    4.1120,  -73.6935, 1109.0, 20,  Colombia
+CM, VIL  ,    4.1120,  -73.6935, 1109.0, 40,  Colombia
+CM, VMM05,    7.9068,  -73.5570,   86.0, 00,  Colombia
+CM, VMM06,    7.4574,  -73.5968,  103.0, 00,  Colombia
+CM, VMM07,    7.3601,  -73.8519,   91.0, 00,  Colombia
+CM, VMM09,    7.1269,  -73.2898, 1079.0, 00,  Colombia
+CM, VMM10,    6.7670,  -73.7250,  165.0, 00,  Colombia
+CM, VMM11,    7.4380,  -73.5707,   84.0, 00,  Santander
+CM, VMM12,    8.0864,  -73.8886,   66.0, 00, Bolivar
+CM, YOT  ,    3.9835,  -76.3450, 1040.0, 00,  Colombia
+CM, YOT  ,    3.9835,  -76.3450, 1040.0, 10,  Colombia
+CM, YPLC ,    5.3969,  -72.3802,  696.0, 00,  Colombia
+CM, YPLC ,    5.3969,  -72.3802,  696.0, 10,  Colombia
+CM, ZAR  ,    7.4923,  -74.8580,  205.0, 00,  Colombia
+CU, ANWB ,   17.6685,  -61.7856,   39.0, ,  Antigua and Barbuda
+CU, ANWB ,   17.6685,  -61.7856,   39.0, 00,  Antigua and Barbuda
+CU, ANWB ,   17.6685,  -61.7856,   39.0, 20,  Antigua and Barbuda
+CU, BBGH ,   13.1434,  -59.5588,  180.0, ,  Barbados
+CU, BBGH ,   13.1434,  -59.5588,  180.0, 00,  Barbados
+CU, BBGH ,   13.1434,  -59.5588,  180.0, 20,  Barbados
+CU, BCIP ,    9.1665,  -79.8373,   61.0, ,  Panama
+CU, BCIP ,    9.1665,  -79.8373,   61.0, 00,  Panama
+CU, BCIP ,    9.1665,  -79.8373,   61.0, 20,  Panama
+CU, GRGR ,   12.1324,  -61.6540,  195.0, ,  Grenada
+CU, GRGR ,   12.1324,  -61.6540,  195.0, 00,  Grenada
+CU, GRGR ,   12.1324,  -61.6540,  195.0, 20,  Grenada
+CU, GRTK ,   21.5115,  -71.1327,   12.0, ,  Turks and Caicos Islands
+CU, GRTK ,   21.5115,  -71.1327,   12.0, 00,  Turks and Caicos Islands
+CU, GRTK ,   21.5115,  -71.1327,   12.0, 20,  Turks and Caicos Islands
+CU, GTBY ,   19.9268,  -75.1108,   79.0, ,  Cuba
+CU, GTBY ,   19.9268,  -75.1108,   79.0, 00,  Cuba
+CU, GTBY ,   19.9268,  -75.1108,   79.0, 20,  Cuba
+CU, MTDJ ,   18.2261,  -77.5345,  925.0, ,  Jamaica
+CU, MTDJ ,   18.2261,  -77.5345,  925.0, 00,  Jamaica
+CU, MTDJ ,   18.2261,  -77.5345,  925.0, 20,  Jamaica
+CU, SDDR ,   18.9821,  -71.2878,  589.0, ,  Dominican Republic
+CU, SDDR ,   18.9821,  -71.2878,  589.0, 00,  Dominican Republic
+CU, SDDR ,   18.9821,  -71.2878,  589.0, 20,  Dominican Republic
+CU, TGUH ,   14.0570,  -87.2730, 1151.0, ,  Honduras
+CU, TGUH ,   14.0570,  -87.2730, 1151.0, 00,  Honduras
+CU, TGUH ,   14.0570,  -87.2730, 1151.0, 20,  Honduras
+EC, AUCA ,   -0.5500,  -76.9000,  500.0, ,  Ecuador
+EC, BONI ,    0.4528,  -77.5297, 2040.0, ,  Ecuador
+EC, COHC ,   -2.4661,  -79.2574,  626.0, ,  RENAC
+EC, CUSE ,    0.3053,  -78.3991, 3354.0, ,  Ecuador
+EC, MCRA ,   -4.3697,  -79.9544,  540.0, ,  RENAC
+EC, MCRA ,   -4.3697,  -79.9544,  540.0, ,  RENAC
+EC, PAC1 ,    0.2661,  -78.7914, 1257.0, ,  Ecuador
+EC, PIAT ,   -0.9771,  -78.2616, 3021.0, ,  RENAC
+EC, PPLP ,   -1.5451,  -80.7750,  250.0, ,  RENAC
+EC, PTGL ,    0.7815,  -80.0304,  262.0, 01,  Ecuador
+EC, TULM ,    0.7161,  -77.7869, 3677.0, ,  Carchi
+GT, LPAZ ,  -16.2879,  -68.1307, 4817.0, 00,  Bolivia
+II, JTS  ,   10.2908,  -84.9525,  340.0, 00,  Costa Rica
+II, JTS  ,   10.2908,  -84.9525,  340.0, 10,  Costa Rica
+II, NNA  ,  -11.9875,  -76.8422,  575.0, 10,  Peru
+IU, OTAV ,    0.2376,  -78.4508, 3510.0, 00,  Ecuador
+IU, PAYG ,   -0.6742,  -90.2861,  270.0, 00,  Galapagos Islands
+IU, PTGA ,   -0.7308,  -59.9666,  237.0, 00,  Brazil
+IU, SAML ,   -8.9489,  -63.1831,  120.0, 00,  Brazil
+IU, SDV  ,    8.8839,  -70.6340, 1589.0, 00,  Venezuela
+IU, SDV  ,    8.8839,  -70.6340, 1589.0, 10,  Venezuela
+IU, SJG  ,   18.1091,  -66.1500,  420.0, 00,  Puerto Rico
+IU, TEIG ,   20.2263,  -88.2763,   40.0, 00,  Mexico
+NU, ACON ,   11.9680,  -85.1740,  862.0, ,  Nicaragua
+NU, CNGN ,   12.5000,  -86.6985,  515.0, ,  Nicaragua
+NU, CRIN ,   12.6962,  -87.0315,  685.0, ,  Nicaragua
+NU, MASN ,   12.0028,  -86.0149,  150.0, ,  Nicaragua
+OM, ANIL ,    4.4910,  -75.4030, 2300.0, ,  Colombia
+OM, ELA  ,    4.8607,  -75.4004, 3990.0, ,  Caldas
+OP, GCUF ,    1.2260,  -77.3450, 3800.0, ,  Colombia
+PA, BRU2 ,    8.7940,  -82.6878, 1320.0, ,  OSOP
+PR, AUA1 ,   12.5056,  -70.0106,   70.0, ,      
+RP, AZU  ,    7.7894,  -80.2743,   45.0, ,  panama
+RP, CACAO,    7.3300,  -80.8500,   46.0, ,  Panama
+RP, GMAL ,    7.8000,  -81.2500,    4.0, ,  panama
+RP, PNME ,    8.4860,  -80.3269,    0.0, ,  Cocle; Panama
+RP, PTP  ,    8.2000,  -82.8700,   63.0, ,  panama
+RP, UPA  ,    8.9828,  -79.5339,   83.8, ,  Universidad de Panama
+RP, UPD2 ,    8.5475,  -78.0148,   86.0, ,  Darien; Panama
+UV, CLMA ,    3.8685,  -76.5821, 1480.0, 10,  Valle
+UV, NIMA ,    3.5443,  -76.1977, 1480.0, 10,  Valle
+VE, DABV ,   10.9218,  -70.6362,  146.0, ,  Venezuela
+VE, ELOV ,    7.0010,  -69.4833,  101.0, ,  Venezuela
+VE, SOCV ,    8.2842,  -70.8563,  335.0, ,  Venezuela
+YU, CS01 ,    9.4771,  -73.4732,   59.0, 00,      
+YU, CS02 ,   10.1505,  -73.1978,  170.0, 00,      
+YU, CS03 ,    9.7087,  -73.6655,   47.0, 00,      
+YU, CS04 ,    9.8495,  -73.7779,   51.0, 00,      
+YU, CS05 ,   10.0345,  -73.8928,   90.0, 00,      
+YU, CS06 ,   10.2126,  -73.9650,  167.0, 00,      
+YU, CS07 ,   10.2098,  -73.5558,  100.0, 00,      
+YU, CS08 ,   10.5097,  -73.2841,  260.0, 00,      
+YU, GJ01 ,   12.1824,  -72.1174,   20.0, 00,      
+YU, GJ01B,   12.1940,  -72.1399,    4.0, 00,      
+YU, GJ02 ,   11.7203,  -72.3092,   21.0, 00,      
+YU, GJ03 ,   11.7273,  -72.5457,    5.0, 00,      
+YU, GJ04 ,   11.4707,  -72.5329,   46.0, 00,      
+YU, GJ05 ,   11.5408,  -72.8479,    7.0, 00,      
+YU, GJ06 ,   11.3943,  -72.2973,   57.0, 00,      
+YU, GJ07 ,   11.1708,  -72.6131,  138.0, 00,      
+YU, GJ08 ,   11.2524,  -72.8767,  100.0, 00,      
+YU, GJ09 ,   11.2178,  -73.2480,   75.0, 00,      
+YU, GJ10 ,   10.7925,  -73.0164,  252.0, 00,      
+YU, MD01 ,   10.4242,  -74.0942,   96.0, 00,      
+YU, MD02 ,   10.5131,  -74.1114,   66.0, 00,      
+YU, MD03 ,   10.7044,  -74.1114,   75.0, 00,      
+YU, MD04 ,   10.8953,  -74.1514,   38.0, 00,      
+YU, MD05 ,   11.0222,  -74.2125,   27.0, 00,      
+YU, MD06 ,   11.2805,  -73.8771,   19.0, 00,      
+YU, MD07 ,   10.9086,  -74.8565,   39.0, 00,      
